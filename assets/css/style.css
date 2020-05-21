@@ -11,21 +11,81 @@ body {
   top: 20%;
   left: 44%;
 }
-
-.🏡-front {
+.🏡 .window-sm {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  top: -6%;
+  left: 6%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #495560;
+  background: #A5ADB5;
+}
+.🏡 .🏡-roof .r-white {
+  display: block;
+  position: absolute;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 66px 70px 66px;
+  border-color: transparent transparent #FFFFFF transparent;
+  top: -23.25%;
+  left: -1%;
+  z-index: 2;
+}
+.🏡 .🏡-roof .r-red {
+  display: block;
+  position: absolute;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 80px 90px 80px;
+  border-color: transparent transparent #E4002B transparent;
+  top: -30%;
+  left: -3.5%;
+  z-index: 1;
+}
+.🏡 .🏡-front {
   position: relative;
-  height: 220px;
+  height: 180px;
   width: 120px;
-  background: #FFF;
+  background: #FFFFFF;
   outline: 4px solid #495560;
 }
-.🏡-front .door {
-  position: relative;
+.🏡 .🏡-front .door {
+  position: absolute;
   height: 70px;
   width: 40px;
-  background: #E4002B;
-  top: 46%;
-  left: 32%;
+  background: #A5ADB5;
+  top: 36%;
+  left: 34%;
+}
+.🏡 .🏡-front .steps .step-1 {
+  position: absolute;
+  height: 10px;
+  width: 60px;
+  background: #A5ADB5;
+  box-shadow: 0 0 0 4px #495560;
+  top: 77%;
+  left: 25%;
+}
+.🏡 .🏡-front .steps .step-2 {
+  position: absolute;
+  height: 10px;
+  width: 80px;
+  background: #A5ADB5;
+  box-shadow: 0 0 0 4px #495560;
+  top: 85%;
+  left: 16.5%;
+}
+.🏡 .🏡-front .steps .step-3 {
+  position: absolute;
+  height: 10px;
+  width: 100px;
+  background: #A5ADB5;
+  box-shadow: 0 0 0 4px #495560;
+  top: 94%;
+  left: 8%;
 }
 
 /*# sourceMappingURL=style.css.map */
