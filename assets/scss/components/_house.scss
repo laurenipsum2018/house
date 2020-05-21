@@ -1,0 +1,29 @@
+.🏡 {
+  display: block;
+  position: absolute;
+  height: 300px;
+  width: 600px;
+  top: 20%;
+  left: 44%;
+}
+
+.🏡-front {
+  position: relative;
+  height: 220px;
+  width: 120px;
+  background: $white;
+  outline: 4px solid $grey;
+
+  .window-sm {
+    
+  }
+
+  .door {
+    position: relative;
+    height: 70px;
+    width: 40px;
+    background: #E4002B;
+    top: 46%;
+    left: 32%;
+  }
+}

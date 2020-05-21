@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body {
+  background-color: #EFEFEF;
+}
+
+.🏡 {
+  display: block;
+  position: absolute;
+  height: 300px;
+  width: 600px;
+  top: 20%;
+  left: 44%;
+}
+
+.🏡-front {
+  position: relative;
+  height: 220px;
+  width: 120px;
+  background: #FFF;
+  outline: 4px solid #495560;
+}
+.🏡-front .door {
+  position: relative;
+  height: 70px;
+  width: 40px;
+  background: #E4002B;
+  top: 46%;
+  left: 32%;
+}
+
+/*# sourceMappingURL=style.css.map */
