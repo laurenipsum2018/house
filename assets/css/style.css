@@ -8,8 +8,8 @@ body {
   position: absolute;
   height: 300px;
   width: 600px;
-  top: 20%;
-  left: 44%;
+  top: 22%;
+  left: 46%;
 }
 .🏡 .window-sm {
   display: block;
@@ -62,7 +62,7 @@ body {
   position: absolute;
   height: 70px;
   width: 40px;
-  background: #A5ADB5;
+  background: #E4002B;
   top: 36%;
   left: 34%;
 }
@@ -319,6 +319,36 @@ body {
   box-shadow: 0 0 0 4px #495560;
   left: 19px;
   top: 84px;
+}
+.🏡 .roof-back .roof-back-lhs {
+  display: block;
+  position: absolute;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 20px 100px 140px;
+  border-color: transparent transparent #A5ADB5 transparent;
+  z-index: 1;
+  top: -62px;
+  left: -149px;
+}
+.🏡 .roof-back .roof-back-rhs {
+  display: block;
+  position: absolute;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 90px 97px 50px;
+  border-color: transparent transparent #A5ADB5 transparent;
+  z-index: 1;
+  top: -65px;
+  left: 128px;
+}
+.🏡 .roof-back .roof-back-mid {
+  position: absolute;
+  height: 96.5px;
+  width: 239px;
+  background: #A5ADB5;
+  top: -64.5px;
+  left: -60px;
 }
 
 /*# sourceMappingURL=style.css.map */
