@@ -14,7 +14,7 @@ body {
 .🏡 .window-sm {
   display: block;
   position: absolute;
-  z-index: 3;
+  z-index: 4;
   top: -6%;
   left: 6%;
   height: 50px;
@@ -23,6 +23,13 @@ body {
   box-shadow: 0 0 0 4px #495560;
   background: #A5ADB5;
 }
+.🏡 .🏡-roof {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  top: -30%;
+  left: -3.25%;
+}
 .🏡 .🏡-roof .r-white {
   display: block;
   position: absolute;
@@ -30,8 +37,8 @@ body {
   border-style: solid;
   border-width: 0 66px 70px 66px;
   border-color: transparent transparent #FFFFFF transparent;
-  top: -23.25%;
-  left: -1%;
+  top: 20px;
+  left: 14px;
   z-index: 2;
 }
 .🏡 .🏡-roof .r-red {
@@ -41,16 +48,15 @@ body {
   border-style: solid;
   border-width: 0 80px 90px 80px;
   border-color: transparent transparent #E4002B transparent;
-  top: -30%;
-  left: -3.5%;
   z-index: 1;
 }
 .🏡 .🏡-front {
-  position: relative;
+  position: absolute;
   height: 180px;
   width: 120px;
   background: #FFFFFF;
   outline: 4px solid #495560;
+  z-index: 2;
 }
 .🏡 .🏡-front .door {
   position: absolute;
@@ -85,7 +91,51 @@ body {
   background: #A5ADB5;
   box-shadow: 0 0 0 4px #495560;
   top: 94%;
-  left: 8%;
+  left: 8.5%;
+}
+.🏡 .🏡-wings {
+  display: block;
+  position: absolute;
+  top: 14%;
+  z-index: 1;
+}
+.🏡 .🏡-wings .wing-lhs-top {
+  display: block;
+  position: absolute;
+  height: 20px;
+  width: 140px;
+  background: #FFFFFF;
+  box-shadow: 0 0 0 4px #495560;
+  left: -144px;
+}
+.🏡 .🏡-wings .wing-lhs {
+  display: block;
+  position: absolute;
+  height: 120px;
+  width: 140px;
+  background: #FFFFFF;
+  box-shadow: 0 0 0 4px #495560;
+  top: 18px;
+  left: -144px;
+}
+.🏡 .🏡-wings .wing-rhs-top {
+  display: block;
+  position: absolute;
+  height: 20px;
+  width: 140px;
+  background: #FFFFFF;
+  box-shadow: 0 0 0 4px #495560;
+  top: -18px;
+  left: 268px;
+}
+.🏡 .🏡-wings .wing-rhs {
+  display: inline-block;
+  position: absolute;
+  height: 120px;
+  width: 140px;
+  background: #FFFFFF;
+  box-shadow: 0 0 0 4px #495560;
+  left: 268px;
 }
 
 /*# sourceMappingURL=style.css.map */
