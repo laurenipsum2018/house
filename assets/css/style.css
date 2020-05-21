@@ -142,15 +142,92 @@ body {
   display: block;
   position: absolute;
 }
+.🏡 .wing-rhs .window-3 .w-3-lh {
+  z-index: 4;
+  display: block;
+  position: absolute;
+  width: 34px;
+  height: 4px;
+  background: #495560;
+  left: 24px;
+  top: 50px;
+}
+.🏡 .wing-rhs .window-3 .w-3-lv {
+  z-index: 3;
+  display: block;
+  position: absolute;
+  width: 4px;
+  height: 60px;
+  background: #495560;
+  left: 38px;
+  top: 20px;
+}
 .🏡 .wing-rhs .window-3 .w-3-s {
+  z-index: 2;
   display: block;
   position: absolute;
   width: 28px;
   height: 60px;
   background: #A5ADB5;
   box-shadow: 0 0 0 4px #495560;
-  left: 20%;
-  top: 20%;
+  left: 26px;
+  top: 20px;
+}
+.🏡 .wing-rhs .window-3 .w-3-b {
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 10px;
+  background: #A5ADB5;
+  box-shadow: 0 0 0 4px #495560;
+  left: 19px;
+  top: 84px;
+}
+.🏡 .wing-rhs .window-4 {
+  display: block;
+  position: absolute;
+  left: 60px;
+}
+.🏡 .wing-rhs .window-4 .w-4-lh {
+  z-index: 4;
+  display: block;
+  position: absolute;
+  width: 34px;
+  height: 4px;
+  background: #495560;
+  left: 24px;
+  top: 50px;
+}
+.🏡 .wing-rhs .window-4 .w-4-lv {
+  z-index: 3;
+  display: block;
+  position: absolute;
+  width: 4px;
+  height: 60px;
+  background: #495560;
+  left: 38px;
+  top: 20px;
+}
+.🏡 .wing-rhs .window-4 .w-4-s {
+  z-index: 2;
+  display: block;
+  position: absolute;
+  width: 28px;
+  height: 60px;
+  background: #A5ADB5;
+  box-shadow: 0 0 0 4px #495560;
+  left: 26px;
+  top: 20px;
+}
+.🏡 .wing-rhs .window-4 .w-4-b {
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 10px;
+  background: #A5ADB5;
+  box-shadow: 0 0 0 4px #495560;
+  left: 19px;
+  top: 84px;
 }
 
 /*# sourceMappingURL=style.css.map */
