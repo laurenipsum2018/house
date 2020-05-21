@@ -111,14 +111,15 @@
       left: -144px;
     }
     .wing-lhs {
-      display: block;
-      position: absolute;
-      height: 120px;
-      width: 140px;
-      background: $white;
-      box-shadow: 0 0 0 4px $grey;
-      top: 18px;
-      left: -144px;
+        display: block;
+        position: absolute;
+        height: 120px;
+        width: 140px;
+        background: $white;
+        box-shadow: 0 0 0 4px $grey;
+        top: 18px;
+        left: -144px;
+      }
     }
     .wing-rhs-top {
       display: block;
@@ -127,17 +128,34 @@
       width: 140px;
       background: $white;
       box-shadow: 0 0 0 4px $grey;
-      top: -18px;
-      left: 268px;
+      left: 124px;
+      top: -6px;
     }
     .wing-rhs {
-      display: inline-block;
+      display: block;
       position: absolute;
       height: 120px;
       width: 140px;
       background: $white;
       box-shadow: 0 0 0 4px $grey;
-      left: 268px;
+      left: 124px;
+      top: 18px;
+      .window-3 {
+        display: block;
+        position: absolute;
+        .w-3-s {
+          display: block;
+          position: absolute;
+          width: 28px;
+          height: 60px;
+          background: $grey-2;
+          box-shadow: 0 0 0 4px $grey;
+          left: 20%;
+          top: 20%;
+        }
+        .w-3-b {
+
+        }
     }
 
   }

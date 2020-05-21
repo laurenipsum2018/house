@@ -118,24 +118,39 @@ body {
   top: 18px;
   left: -144px;
 }
-.🏡 .🏡-wings .wing-rhs-top {
+.🏡 .wing-rhs-top {
   display: block;
   position: absolute;
   height: 20px;
   width: 140px;
   background: #FFFFFF;
   box-shadow: 0 0 0 4px #495560;
-  top: -18px;
-  left: 268px;
+  left: 124px;
+  top: -6px;
 }
-.🏡 .🏡-wings .wing-rhs {
-  display: inline-block;
+.🏡 .wing-rhs {
+  display: block;
   position: absolute;
   height: 120px;
   width: 140px;
   background: #FFFFFF;
   box-shadow: 0 0 0 4px #495560;
-  left: 268px;
+  left: 124px;
+  top: 18px;
+}
+.🏡 .wing-rhs .window-3 {
+  display: block;
+  position: absolute;
+}
+.🏡 .wing-rhs .window-3 .w-3-s {
+  display: block;
+  position: absolute;
+  width: 28px;
+  height: 60px;
+  background: #A5ADB5;
+  box-shadow: 0 0 0 4px #495560;
+  left: 20%;
+  top: 20%;
 }
 
 /*# sourceMappingURL=style.css.map */
