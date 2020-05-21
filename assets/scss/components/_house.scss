@@ -109,6 +109,7 @@
       background: $white;
       box-shadow: 0 0 0 4px $grey;
       left: -144px;
+      top: -6px;
     }
     .wing-lhs {
         display: block;
@@ -332,10 +333,10 @@
       position: absolute;
       height: 0px;
       border-style: solid;
-      border-width: 0 20px 100px 140px;
+      border-width: 0 50px 97px 90px;
       border-color: transparent transparent $grey-2 transparent;
       z-index: 1;
-      top: -62px;
+      top: -65px;
       left: -149px;
     }
     .roof-back-rhs {

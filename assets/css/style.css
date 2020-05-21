@@ -107,6 +107,7 @@ body {
   background: #FFFFFF;
   box-shadow: 0 0 0 4px #495560;
   left: -144px;
+  top: -6px;
 }
 .🏡 .🏡-wings .wing-lhs {
   display: block;
@@ -325,10 +326,10 @@ body {
   position: absolute;
   height: 0px;
   border-style: solid;
-  border-width: 0 20px 100px 140px;
+  border-width: 0 50px 97px 90px;
   border-color: transparent transparent #A5ADB5 transparent;
   z-index: 1;
-  top: -62px;
+  top: -65px;
   left: -149px;
 }
 .🏡 .roof-back .roof-back-rhs {
