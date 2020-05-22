@@ -48,6 +48,17 @@
     }
   }
 
+  .chimney {
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 34px;
+    background-color: $grey;
+    z-index: 2;
+    top: -100px;
+    left: 4px;
+  }
+
   .🏡-front {
     position: absolute;
     height: 180px;
@@ -55,6 +66,7 @@
     background: $white;
     outline: 4px solid $grey;
     z-index: 2;
+    top: 0px;
 
     .door {
       position: absolute;

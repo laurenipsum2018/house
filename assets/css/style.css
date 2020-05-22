@@ -50,6 +50,16 @@ body {
   border-color: transparent transparent #E4002B transparent;
   z-index: 1;
 }
+.🏡 .chimney {
+  display: block;
+  position: relative;
+  height: 100px;
+  width: 34px;
+  background-color: #495560;
+  z-index: 2;
+  top: -100px;
+  left: 4px;
+}
 .🏡 .🏡-front {
   position: absolute;
   height: 180px;
@@ -57,6 +67,7 @@ body {
   background: #FFFFFF;
   outline: 4px solid #495560;
   z-index: 2;
+  top: 0px;
 }
 .🏡 .🏡-front .door {
   position: absolute;
